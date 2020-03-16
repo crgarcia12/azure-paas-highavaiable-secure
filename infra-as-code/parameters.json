@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_crgar_paas_ha_webapp_name": {
+            "value": null
+        },
+        "serverfarms_crgar_paas_ha_plan_name": {
+            "value": null
+        },
+        "virtualNetworks_outbound_vnet_name": {
+            "value": null
+        },
+        "components_crgar_paas_ha_webapp_name": {
+            "value": null
+        },
+        "publicIPAddresses_crgar_paas_ha_ip_name": {
+            "value": null
+        },
+        "virtualNetworks_crgar_paas_ha_vnet_name": {
+            "value": null
+        },
+        "networkSecurityGroups_crgar_nsg_demo_name": {
+            "value": null
+        },
+        "trafficManagerProfiles_crgar_paas_ha_name": {
+            "value": null
+        },
+        "azureFirewalls_crgar_paas_ha_outbound_fw_name": {
+            "value": null
+        },
+        "applicationGateways_crgar_paas_ha_gateway_name": {
+            "value": null
+        },
+        "publicIPAddresses_crgar_paas_ha_outbound_ip_name": {
+            "value": null
+        },
+        "routeTables_crgar_paas_ha_outbound_routetable_name": {
+            "value": null
+        },
+        "workspaces_crgar_paas_ha_workspace_name": {
+            "value": null
+        },
+        "networkSecurityGroups_crgar_paas_ha_outbound_nsg_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___crgar_paas_ha_webapp_name": {
+            "value": null
+        },
+        "actiongroups_application_20insights_20smart_20detection_externalid": {
+            "value": null
+        }
+    }
+}
