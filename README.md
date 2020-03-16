@@ -1,2 +1,6 @@
 # azure-paas-highavaiable-secure
-In here we deploy a web app to an App Service that is high available and completely locked down from inbound and outbound traffic
+This repo denmostrate how to create an App Service in multi teant mode that it is secure and high available
+
+For that the traffic flows through these components:
+
+Traffic Manager -> App Gateway (WAF) -> Application Service -> Vnet Integration -> Azure Firewall -> Internet
